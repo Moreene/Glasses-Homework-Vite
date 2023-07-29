@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>眼鏡官網 | 門市據點</title>
+  <script type="module" crossorigin src="/Glasses-Homework-Vite/assets/bootstrap-330886ce.js"></script>
+  <link rel="stylesheet" href="/Glasses-Homework-Vite/assets/bootstrap-9d686737.css">
+</head>
+
+<body>
+    <header class="bg-primary">
+    <div class="container g-0 g-md-4">
+        <div class="d-flex flex-column flex-sm-row justify-content-sm-between">
+            <h1 class="mb-0"><a href="index.html"><img src="data:image/png;base64,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" alt="logo" class="header-logo"></a>
+            </h1>
+            <ul class="topbar d-flex flex-wrap align-items-center">
+                <li class="text-center me-md-7"><a href="#" class="topbar-link fs-md-5">系列鏡框</a></li>
+                <li class="text-center me-md-7"><a href="locate.html" class="topbar-link fs-md-5">門市據點</a></li>
+                <li class="text-center me-md-7"><a href="#" class="topbar-link fs-md-5">部落格</a></li>
+                <li class="text-center"><a href="faq.html" class="topbar-link fs-md-5">常見問題</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+        <div class="common-spacer">
+            <div class="container">
+                <h2 class="fw-bold locate-title title-font position-relative ps-3 mb-4 mb-md-5">門市據點</h2>
+                <div class="locate-select">
+                    <span class="me-2">選擇地區</span>
+                    <select class="">
+                        <option selected>台北市</option>
+                        <option value="台中市">台中市</option>
+                        <option value="高雄市">高雄市</option>
+                    </select>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 gy-lg-0">
+                    <div class="col">
+                        <div class="card rounded-0 mb-lg-6">
+                            <img src="/Glasses-Homework-Vite/assets/store-1-e8e7cac3.png" class="card-img img-fluid rounded-0" alt="台北店面">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="fs-4 mb-0">台北中山旗艦店</h3>
+                                </li>
+                                <li class="list-group-item">
+                                    <ul class="p-2">
+                                        <li class="mb-2 fs-5"><i class="bi bi-telephone"></i>電話：(02)000-1234</li>
+                                        <li class="mb-2 fs-5"><i class="bi bi-clock"></i>營業時間：10:00-21:00</li>
+                                        <li class="d-flex fs-5"><i
+                                                class="bi bi-geo-alt d-block"></i>地址：台北市中山區南京東路25巷2-1號</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item p-0"><a href="#"
+                                        class="fs-5 btn btn-dark w-100 rounded-0 py-3 mb-0">詳細資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0">
+                            <img src="/Glasses-Homework-Vite/assets/store-2-e9ba0027.png" class="card-img img-fluid rounded-0" alt="台北店面">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="fs-4 mb-0">台北綠園店</h3>
+                                </li>
+                                <li class="list-group-item">
+                                    <ul class="p-2">
+                                        <li class="mb-2 fs-5"><i class="bi bi-telephone"></i>電話：(02)000-2345</li>
+                                        <li class="mb-2 fs-5"><i class="bi bi-clock"></i>營業時間：10:00-21:00</li>
+                                        <li class="d-flex fs-5"><i class="bi bi-geo-alt d-block"></i>地址：台北市中正區復興南路 132-1
+                                            號</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item p-0"><a href="#"
+                                        class="fs-5 btn btn-dark w-100 rounded-0 py-3 mb-0">詳細資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0">
+                            <img src="/Glasses-Homework-Vite/assets/store-3-0f3830b0.png" class="card-img img-fluid rounded-0" alt="台北店面">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="fs-4 mb-0">台中清水旗艦店</h3>
+                                </li>
+                                <li class="list-group-item">
+                                    <ul class="p-2">
+                                        <li class="mb-2 fs-5"><i class="bi bi-telephone"></i>電話：(02)000-1234</li>
+                                        <li class="mb-2 fs-5"><i class="bi bi-clock"></i>營業時間：10:00-21:00</li>
+                                        <li class="d-flex fs-5"><i class="bi bi-geo-alt d-block"></i>地址：台中市清水區經南一路 23 號
+                                            8 樓</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item p-0"><a href="#"
+                                        class="fs-5 btn btn-dark w-100 rounded-0 py-3 mb-0">詳細資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0">
+                            <img src="/Glasses-Homework-Vite/assets/store-4-64d480b6.png" class="card-img img-fluid rounded-0" alt="台北店面">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="fs-4 mb-0">高雄中正形象店</h3>
+                                </li>
+                                <li class="list-group-item">
+                                    <ul class="p-2">
+                                        <li class="mb-2 fs-5"><i class="bi bi-telephone"></i>電話：(07)000-2345</li>
+                                        <li class="mb-2 fs-5"><i class="bi bi-clock"></i>營業時間：10:00-21:00</li>
+                                        <li class="d-flex fs-5"><i class="bi bi-geo-alt d-block"></i>地址：高雄市苓雅區中正路 38 號
+                                            12 樓</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item p-0"><a href="#"
+                                        class="fs-5 btn btn-dark w-100 rounded-0 py-3 mb-0">詳細資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-0">
+                            <img src="/Glasses-Homework-Vite/assets/store-5-6f093e06.png" class="card-img img-fluid rounded-0" alt="台北店面">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h3 class="fs-4 mb-0">高雄夢時代店</h3>
+                                </li>
+                                <li class="list-group-item">
+                                    <ul class="p-2">
+                                        <li class="mb-2 fs-5"><i class="bi bi-telephone"></i>電話：(07)000-1234</li>
+                                        <li class="mb-2 fs-5"><i class="bi bi-clock"></i>營業時間：10:00-21:00</li>
+                                        <li class="d-flex fs-5"><i class="bi bi-geo-alt d-block"></i>地址：高雄市前鎮區中華一路 63 號
+                                            6 樓</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item p-0"><a href="#"
+                                        class="fs-5 btn btn-dark w-100 rounded-0 py-3 mb-0">詳細資訊</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-primary">
+    <div class="container">
+        <div class="footer-content">
+            <div class="d-flex justify-content-between align-items-center mb-2 mb-md-4">
+                <ul class="d-md-flex d-none d-md-block">
+                    <li class="me-md-7"><a href="index.html" class="footer-link">首頁</a></li>
+                    <li class="me-md-7"><a href="#" class="footer-link">系列鏡框</a></li>
+                    <li class="me-md-7"><a href="locate.html" class="footer-link">門市據點</a></li>
+                    <li class="me-md-7"><a href="#" class="footer-link">部落格</a></li>
+                    <li><a href="faq.html" class="footer-link">常見問題</a></li>
+                </ul>
+                <a href="#" class="info-link d-md-none"><i class="bi bi-telephone info-icon"></i>0800-000-000</a>
+                <ul class="d-flex">
+                    <li><a href="#" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAe1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NgkbwAAAAKXRSTlMAED9vf7/P/++fIN9fMI+vQHDwwNBQgGCQoLAnBU4KYhF1FpIenBST4NjHe8YAAAIaSURBVHgB7dYFsuM6EIXh06E2RPeZIoff8Hj/GxxGZ+wjSqG/oov6S4aOsHC3WMhqvdlud/pFtt3mm1WBhFabrT4o870gBfOS6ZT/9oi13+msbCNRy5dKRSSqnTrJ1gghL+psZ+DNlOrDexNr9bQV+MiViLtMstMAmUmwfnyBrx9f2CoRWcg1QilganXQtN91OrYDYZTqaoPfqoP+xWKWlEq0FUb0bwZzrBIWD3xuQ8Gu/QE0oDbiCe3hEMgKTKl03hEuAT2FbqARt4AWgRuwIAG2hTMJiGsgk6BHqIVrQGs+JPgVkn2+/UbVcWDsSKDCn/pMZxTkCvF/6vUBu0a9EviDZP736+wTOCiBR5kSXkPxgrGrJg3cMHZPG/gfY6/SBl5j7E3awFuMvUsbeL8EkgVaMPbZgfbZgfLZAXUMfPAMkMPsR9dRQQMH11FxDwxY12F3DQycXMc1hrBA6/qBg3NYwP0jsw4KCL2y5NhSbn7BH6rND7n7sQVdwmFXkKNjbGAgh9/oQE2O79EBwT9VqQInTOgSBQpMqNIETpjUJgkUZLjHBixmHOMDA+bIEB2oMMvEBiyIOi7QgjrFBAYBJV14oDGAe4EH+Pq0QAJkfVIgAbI+cfIPdAY+rG+gFfipGq+AhTc58QC7PETVuQWaGqH6gQeaoyBC380HGiuIZE7NZODcI4nq2D0GmlMvSKiq//ruUGCxWDj6DFdye+ioNlViAAAAAElFTkSuQmCC" alt="fb" class="media-icon"></a>
+                    </li>
+                    <li><a href="#" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAeFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////GqOSsAAAAKHRSTlMAPzBvn7//749fIEDfEGDgwKBwgLDwUM/Qf5ACCRMYHa9PFSw8KBwM90qh6AAAAuxJREFUeAHt2OditCoQBuBZgsMuCOpa03ty/1d4GmKaAwLn6/v8tbwoHTg5OQnaBTBIxc54gZuIYn+QEEdxgXHKfUTGocQUhYJNWIGpuIawM8wgFIRwzGPi31/VtHCC5/1Vc1QSwphqux7fDEAb0OkbBjGGGh0hgSIFzjoJsVSFsxEoDc6OkEB3oWpgG1tCsIAicL2FVJO3hBqtGiIN++Kc2Ur01oJBS0Gc7l21tWhJ+kacIM7F+3JJXysRSTWscVa/L2XnaUMSoih04F9Huh0NW/6Q3O122hfA0LqEL1r3cQR94CNaxTmjfhGgdUVWVksU/dMcWp5rV7CPjW8iA2pPgOb4hThfaabLa67JAAVfGYFrRjZXQ9u1ElxcQgBHgjArVUkGjFQAR5qJCEAigKOPIQJuNge0uJgu/ruoh6bHBVu//5YMkFRHrQZY6HaJKHVkAHygS5xdfLowERciA1q6NhucsYwALTxTVI1WkxFg1t7h6AotmRzg+kavvauoY3KA9K8C3E8akwMMWhpWENeHmIA2sMzQK51ThQLoEZz+R8fMABMKaDMDFFDanz0g/hf9+ErOb6bDN+lo32qoKNxiMDXAraLEtxrs4IgWhxW6zB+ude+ZcO7Qar7RlMkTp0xi1sL9pwtj6qQvqb1/qWChzwXOeh0ZoFZW9bNx3hbc8xIXCjIDoMEPxLal4wN8MREB0EUufuOX7w0SegN5AY7pcc3E6N32ddwWSjYrxW99I/h1eBPoj6haDatGtwmM38aaZkKrvhiAgmTA4JZpPkwpJcFD0htxhpaGHGauIFjRu6adznsY4q4VkIw+zok/kCJ4D6Q0Zn+CFN4jm2b5vlQFeutR5R5rcrQqIHRZCZoHH5c9zu40xFIjziYgGXTEXkKM+zt0ehk4HHbG/WEHG+jdGS/J4306wSkLH0FPcnRCFgMhR8zQKwhjE6bqNGxiKkxRK9hsaHqMU11IiKPlI1ObPLHnl1f4gU5OTv4GYulZF3YBhIwAAAAASUVORK5CYII=" alt="ig" class="media-icon"></a>
+                    </li>
+                    <li><a href="#" class="me-2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAAVFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////8wXzyWAAAAHHRSTlMAP19/r+//3zDPQGCwoMCAkNDwcBDgIFC/j59v4ENljAAAAn5JREFUeAHt2dFuqzgUheGV9HhhbMDgGCDJ+7/nCA0ZmmmAbUNPVSnfFVJV/pot3+zi7e23Op0/op1PEDr/UUyi/pwlr8+4Q7aV0Dl3yjVWGMXdlMEiy0NYLDA8iMFLWvEgSuOVnIfJBQM4fgwZD5QlHyD9CAUPVeL/FLdUlftXXTXcouLugC+txhNzKeLugl17u8YrwRYRQ3Bc0NqARV3JJU4W8BbrunpXoAzYpKvkgO8h4hIDTYCQ8SmBIkBM+/hAiRjBxwaagCjaxwXagEgmLqARzcUEHBI08kAbkMDIAxZJCmnAByQx0kCNRI0woDGph6F//Hx87IbhipEdBov+y52sZYEWDxXpPj+ax3wc6eZfqTDRskC1GlB6OQBZwK0GmIc50JiRnocgClzWA7zNgQrPKlHAbATY/xfIPkYWD+UBgZJU3dIM3AGB0JD5UqA6YAbQnlRTwFejS2TArQdgSS4MOYu/B7fTKHwOoCCfhtxjEigKqK8ndk+B0PL1DHpZgGYjAL0QKIWBEpNiTpakhSY9Rhfygr6a1JgoYUAFJLEUBuiQImSiQPoRHMUB1ogXVESABtFyxgRUh0g3RgWYB0SxlATSC5rRAeYdxLRKCFCZ9PeLAuQdIkYxMcDByOabHCBvHTbcmRSYXTVWhBtTA7Ps3gn2rOmBUX67a3zVK8oD24YznoQrGRGQuMg+T3qgwuyu+J2BbiC/IVAv/PmCgI2Zgc7j95pGvvUO16QFuaeAFn2dkU9bzH6c7hlFir+/WkbLA7U/sd5Hw8M00s1eIq/xUs+DmJ/6NxfQe+7mDVbohjs1Gutsyx1ai2228EziCwshY100a/D29kv9A9BRftNS1kHVAAAAAElFTkSuQmCC" alt="line"
+                                class="media-icon"></a></li>
+                </ul>
+            </div>
+            <a href="#" class="info-link fs-md-2 d-none d-md-block mb-2"><i
+                    class="bi bi-telephone info-icon"></i>0800-000-000</a>
+            <a href="#" class="mb-0 info-link fs-md-2"><i class="bi bi-envelope info-icon"></i>glasses@business.com</a>
+            <div class="border border-white my-md-5"></div>
+            <div class="d-md-flex justify-content-between align-items-center">
+                <p class="text-white mb-2 mb-md-0">Copyright © 2020 Glasses.All rights reserved.</p>
+                <div class="d-md-flex">
+                    <p class="text-white mb-2 mb-md-0 me-6">隱私權政策</p>
+                    <p class="text-white mb-0">服務條款</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            
+</body>
+
+</html>
