@@ -1,0 +1,10 @@
+.faq-title::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $primary;
+}

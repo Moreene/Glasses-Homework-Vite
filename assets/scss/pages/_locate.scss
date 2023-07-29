@@ -1,0 +1,42 @@
+.locate-title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $primary;
+}
+
+.locate-select{
+    margin-bottom: 24px;
+
+    @media (min-width:768px) {
+        margin-bottom: 40px;
+    }
+}
+
+select {
+    width: 70%;
+    font-size: 18px;
+    color: $gray-700;
+    border-color: $gray-400;
+    padding: 6px 0;
+
+    &:focus-visible {
+        outline: 0;
+    }
+
+    @media (min-width:768px) {
+        width: 304px;
+    }
+}
+
+.card-img {
+    height: 224px;
+}
+
+.list-group-item i {
+    margin-right: 12px;
+}

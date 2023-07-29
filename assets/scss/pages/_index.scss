@@ -1,0 +1,244 @@
+// banner
+.banner {
+  background-image: url("../images/home-header-sm.png");
+  width: 100%;
+  height: 396px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 787px;
+  }
+
+  @media (min-width: 992px) {
+    background-image: url("../images/home-header.png");
+  }
+}
+
+.slogan-one {
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
+}
+
+.slogan-two {
+  font-size: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 64px;
+  }
+}
+
+.banner-btn {
+  color: $white;
+  background-color: $primary;
+  padding: 5px 12px;
+
+  &:hover {
+    color: $pink;
+  }
+}
+
+// main
+.intro {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.intro-slogan {
+
+  @media (min-width: 768px) {
+    font-size: 48px;
+  }
+}
+
+.title {
+  font-size: 24px;
+}
+
+.card-icon {
+  width: 83px;
+  height: 83px;
+}
+
+// section 1
+.classic-content {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.classic-card img {
+  width: 348px;
+  height: 100%;
+
+  @media (min-width: 768px) {
+    width: 336px;
+    height: 100%;
+  }
+
+  @media (min-width: 992px) {
+    width: 416px;
+    height: 100%;
+  }
+}
+
+.classic-card h3 {
+  font-size: 36px;
+
+  @media (min-width: 375px) {
+    font-size: 48px;
+  }
+}
+
+.classic-title {
+  @media (min-width: 768px) {
+    font-size: 48px;
+  }
+}
+
+// section 2
+.co-branding {
+  background-image: url("../images/index-bg-sm.png");
+  width: 100%;
+}
+
+.branding-content {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.branding-card {
+  width: 256px;
+
+  @media (min-width: 375px) {
+    width: 348px;
+  }
+
+  @media (min-width: 768px) {
+    width: 696px;
+  }
+
+  @media (min-width: 992px) {
+    width: 648px;
+  }
+}
+
+.branding-card img {
+  @media (min-width: 768px) {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+}
+
+.branding-card-title {
+  font-size: 36px;
+  background-color: $white;
+
+  @media (min-width: 375px) {
+    font-size: 48px;
+  }
+}
+
+// section 3
+.customer {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.customer-content {
+
+  &:nth-child(1) {
+    .card-info {
+      margin-bottom: 96px;
+
+      @media (min-width: 992px) {
+        margin-bottom: 72px;
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    .card-info {
+      margin-bottom: 72px;
+
+      @media (min-width:992px) {
+        margin-bottom: 48px;
+      }
+
+      @media (min-width:1200px) {
+        margin-bottom: 72px;
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    .card-info {
+      margin-bottom: 72px;
+
+      @media (min-width:992px) {
+        margin-bottom: 48px;
+      }
+
+      @media (min-width:1400px) {
+        margin-bottom: 72px;
+      }
+    }
+  }
+
+  &:nth-child(4) {
+    .card-info {
+      margin-bottom: 96px;
+
+      @media (min-width: 768px) {
+        margin-bottom: 72px;
+      }
+    }
+  }
+}
+
+.card {
+  box-shadow: 0px 2px 6px #00000029;
+}
+
+.card-image {
+  height: 306px;
+  object-fit: cover;
+}
+
+.card-date {
+  font-size: 14px;
+  color: $gray-600;
+}
+
+// section 4
+.contact {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.submitBtn {
+
+  @media (min-width: 375px) {
+    padding: 16px 142px;
+    margin-top: 32px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 16px 176px;
+  }
+}

@@ -1,0 +1,50 @@
+.footer-content {
+  padding: 24px 0;
+
+  @media (min-width: 768px) {
+    padding: 48px 0 40px 0;
+  }
+
+  @media (min-width: 992px) {
+    padding: 48px 0 32px 0;
+  }
+}
+
+.footer-link {
+  color: $white;
+
+  &:hover {
+    color: $pink;
+  }
+}
+
+.info-link {
+  color: $white;
+
+  &:hover {
+    color: $pink;
+  }
+}
+
+.info-icon {
+  margin-right: 11px;
+}
+
+.media-icon {
+  width: 24px;
+  height: 24px;
+
+  @media (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (min-width: 992px) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.border {
+  margin: 24px 0 16px 0;
+}

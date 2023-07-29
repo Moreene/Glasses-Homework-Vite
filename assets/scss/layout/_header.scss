@@ -1,0 +1,31 @@
+.header-logo {
+  padding: 16px 0 15px 15px;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+  }
+}
+
+.topbar li {
+  width: 50%;
+  border: 1px solid $white;
+
+  @media (min-width: 576px) {
+    width: 80px;
+    border: 0;
+  }
+}
+
+.topbar-link {
+  width: 100%;
+  color: $white;
+  padding: 12px 0px;
+
+  &:hover {
+    color: $pink;
+  }
+
+  @media (min-width: 768px) {
+    padding: 25px 0;
+  }
+}
