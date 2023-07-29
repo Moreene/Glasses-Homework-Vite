@@ -2,4 +2,4 @@
 * 第四週作業
 * 技術：HTML、CSS、SCSS、Bootstrap、RWD
 * 工具：Vite
-* FAQ、門市據點完成
+* FAQ、門市據點頁面完成
